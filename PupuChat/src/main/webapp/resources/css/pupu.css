@@ -1,0 +1,369 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff7ee;
+	height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+	border: 0 none;
+}
+
+:focus {
+	outline: 0
+}
+
+#header {
+	position: relative;
+	background: white;
+	padding: .5em;
+	box-shadow: 0 .25em .75em #CCC;
+	-moz-box-shadow: 0 .25em .75em #CCC;
+	-webkit-box-shadow: 0 .25em .75em #CCC;
+}
+
+.logo_img {
+	width: 180;
+	height: 60;
+}
+
+.logo_img_m {
+	width: 120;
+	height: 40;
+}
+
+#sns_panel {
+	display: none;
+}
+
+#sns_panel_m {
+	display: none;
+}
+
+#online_count_area {
+	position: absolute;
+	font-family: Trebuchet MS, Gill Sans, sans-serif;
+	font-size: 1.5em;
+	color: #fe71ec;
+	right: .3em;
+	bottom: .3em;
+}
+
+#online_count {
+	font-size: 1.3em;
+	color: #e782ff;
+}
+
+#fb_area {
+	position: absolute;
+	right: 2em;
+	top: .5em;
+	z-index: 100;
+}
+
+#fb_area_m {
+	position: absolute;
+	right: 2em;
+	top: 1.2em;
+	z-index: 100;
+}
+
+.fb_like_large {
+	transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	-o-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+}
+
+#twitter_area {
+	position: absolute;
+	right: 9.5em;
+	top: .3em;
+	z-index: 100;
+}
+
+#intro_view {
+	position: relative;
+	margin: 1em;
+	padding: .5em;
+	padding-bottom: 1em;
+	border: 1px solid #CCC;
+	line-height: 1.5;
+	background: white;
+	border-radius: .5em;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	box-shadow: inset 0 0 .5em #BBB;
+	-moz-box-shadow: inset 0 0 .5em #BBB;
+	-webkit-box-shadow: inset 0 0 .5em #BBB;
+}
+
+#chat_type_panel_m {
+	text-align: center;
+}
+
+#chat_type_table {
+	text-align: center;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+#chat_type_text {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: fuchsia;
+	font-family: Trebuchet MS, Gill Sans, sans-serif;
+	font-size: 1.25em;
+}
+
+#chat_type_text_or {
+	color: #555;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 15px;
+	width: 40px;
+}
+
+.start_chat_btn {
+	width: 124;
+	height: 50;
+	font-family: sans-serif;
+	font-size: 1.25em;
+	color: white;
+	vertical-align: middle;
+	border: 1px solid #CCC;
+	border-radius: .5em;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+}
+
+.start_chat_btn_m {
+	width: 250;
+	height: 60;
+	font-family: sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: white;
+	vertical-align: middle;
+	border: 1px solid #CCC;
+	border-radius: .5em;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+}
+
+.enable_btn_gradient {
+	background-image: -ms-linear-gradient(top, #8041d9 0, #ff9dff 100%);
+	background-image: -moz-linear-gradient(top, #8041d9 0, #ff9dff 100%);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#8041d9),
+		to(#b677ff));
+}
+
+.disable_btn_gradient {
+	background-image: -ms-linear-gradient(top, #c12dff 0, #ff9dff 100%);
+	background-image: -moz-linear-gradient(top, #c12dff 0, #ff9dff 100%);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#787878),
+		to(#dcdcdc));
+}
+
+#chat_view {
+	display: none;
+}
+
+#chat_msg_panel {
+	position: absolute;
+	left: 1em;
+	right: 1em;
+	top: 5.7em;
+	bottom: 6.5em;
+	background: white;
+	border: 1px solid #CCC;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	-moz-border-radius-topleft: .5em;
+	-moz-border-radius-topright: .5em;
+	-webkit-border-top-left-radius: .5em;
+	-webkit-border-top-right-radius: .5em;
+}
+
+.chat_msg_area_p {
+	position: absolute;
+	top: 0em;
+	left: 0em;
+	right: 0em;
+	max-height: 100%;
+	overflow: auto;
+}
+
+.chat_msg_area_m {
+	position: absolute;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	max-height: 100%;
+	overflow: auto;
+}
+
+.chat_msg {
+	margin: .5em;
+	word-wrap: break-word;
+}
+
+.status_msg {
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font-size: .9em;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+.you_msg {
+	margin: 0;
+	padding: 0;
+	color: #8041d9;
+	word-wrap: break-word;
+}
+
+.stranger_msg {
+	margin: 0;
+	padding: 0;
+	color: fuchsia;
+	word-wrap: break-word;
+}
+
+.normal_msg {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+#chat_control_panel {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	right: 1em;
+	height: 5em;
+}
+
+#chat_control_table {
+	padding: 0;
+	border: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.left_btn {
+	font-size: 1em;
+	width: 7em;
+	height: 5em;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #CCC;
+	border-bottom-left-radius: .5em;
+	-moz-border-radius-bottomleft: .5em;
+	-webkit-border-bottom-left-radius: .5em;
+}
+
+.left_btn_m {
+	font-size: 1em;
+	width: 4em;
+	height: 2.4em;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #CCC;
+	border-bottom-left-radius: .5em;
+	-moz-border-radius-bottomleft: .5em;
+	-webkit-border-bottom-left-radius: .5em;
+}
+
+.right_btn {
+	font-size: 1em;
+	width: 7em;
+	height: 5em;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #CCC;
+	border-bottom-right-radius: .5em;
+	-moz-border-radius-bottomright: .5em;
+	-webkit-border-bottom-right-radius: .5em;
+}
+
+.right_btn_m {
+	font-size: 1em;
+	width: 3em;
+	height: 2.4em;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #CCC;
+	border-bottom-right-radius: .5em;
+	-moz-border-radius-bottomright: .5em;
+	-webkit-border-bottom-right-radius: .5em;
+}
+
+.new_btn {
+	font-weight: bold;
+	color: white;
+}
+
+.stop_btn {
+	background: white;
+	color: black;
+}
+
+.really_btn {
+	background: white;
+	font-weight: bold;
+	color: black;
+}
+
+.send_btn {
+	background: white;
+}
+
+.shortcut_text {
+	font-size: .8em;
+	color: #9cf;
+	font-weight: bold;
+	margin-top: .25em;
+	height: 0;
+	overflow: show;
+}
+
+.wide_td {
+	width: 100%;
+}
+
+.chat_text_area_p {
+	width: 100%;
+	height: 5em;
+	background: white;
+	font-family: sans-serif;
+	font-size: 1em;
+	border: 1px solid #CCC;
+	padding: .25em;
+	margin: 0;
+	font-size: 1em;
+	overflow: auto;
+	-webkit-appearance: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.chat_text_area_m {
+	width: 100%;
+	height: 2.4em;
+	background: white;
+	font-family: sans-serif;
+	font-size: 1em;
+	border: 1px solid #CCC;
+	padding: .25em;
+	margin: 0;
+	font-size: 1em;
+	overflow: auto;
+	-webkit-appearance: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}

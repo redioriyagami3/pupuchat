@@ -1,4 +1,4 @@
-package com.pupuchat.chat;
+package com.pupu.chat;
 
 public class MyLog {
 	public static final boolean TRACE = true;

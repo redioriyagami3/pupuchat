@@ -14,8 +14,6 @@
 
 <meta name="google-site-verification"
 	content="UhYvmpdmolsJoqjewUexTl7j6SqRRIi73DczV1mbhrg" />
-<meta name="google-site-verification"
-	content="ByVivCRoj1bqytym3dpmv-Ky8OiCfLpKd9woYlDFhSw" />
 
 <!-- Facebook -->
 <meta property="fb:app_id" content="1564090080528848">
@@ -29,15 +27,6 @@
 <meta property="og:description"
 	content="Let's chat with random strangers! We hope you will meet great friends. Pupu Chat keeps you anonymous and you can stop chatting at anytime. Enjoy our 100% Free Random Chat!">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Pupu Chat: Free Random Chat">
-<meta name="twitter:site" content="Pupu Chat">
-<meta name="twitter:image"
-	content="http://randomchat-pupuchat.rhcloud.com/resources/image/logo2.png">
-<meta name="twitter:description"
-	content="Let's chat with random strangers! We hope you will meet great friends. Pupu Chat keeps you anonymous and you can stop chatting at anytime. Enjoy our 100% Free Random Chat!">
-
 <link rel="icon" type="image/png" href="/resources/image/favicon.png">
 <link rel="stylesheet" type="text/css" href="/resources/css/pupu.css">
 
@@ -46,7 +35,6 @@
 	charset="utf-8"></script>
 <script type="text/javascript" src="/resources/js/pupu.js"></script>
 <script type="text/javascript" src="/resources/js/text_chat.js"></script>
-<script type="text/javascript" src="/resources/js/video_chat.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -68,13 +56,6 @@
 				data-href="http://randomchat-pupuchat.rhcloud.com/" data-width="300"
 				data-layout="button_count" data-action="like" data-show-faces="true"
 				data-share="true"></div>
-			<a id="twitter_area" class="twitter-share-button"
-				href="https://twitter.com/share" data-size="large"
-				data-url="http://randomchat-pupuchat.rhcloud.com/"
-				data-count-url="http://randomchat-pupuchat.rhcloud.com/"
-				data-related="twitterapi,twitter"
-				data-hashtags="pupuchat, randomchat"
-				data-text="Let's chat with random strangers on Pupu Chat!">Tweet</a>
 		</div>
 		<div id="sns_panel_m">
 			<div id="fb_area_m" class="fb-like fb_like_large"
@@ -173,20 +154,6 @@
 	  	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
 	  	fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));
-	</script>
-
-	<!-- Twitter -->
-	<script>
-	window.twttr=(function(d,s,id){
-		var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};
-		if(d.getElementById(id))return;
-		js=d.createElement(s);js.id=id;
-		js.src="https://platform.twitter.com/widgets.js";
-		fjs.parentNode.insertBefore(js,fjs);
-		t._e=[];
-		t.ready=function(f){t._e.push(f);};
-		return t;
-	}(document,"script","twitter-wjs"));
 	</script>
 
 </body>

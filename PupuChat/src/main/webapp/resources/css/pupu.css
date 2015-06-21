@@ -77,13 +77,6 @@ img {
 	-moz-transform: scale(1.4);
 }
 
-#twitter_area {
-	position: absolute;
-	right: 9.5em;
-	top: .3em;
-	z-index: 100;
-}
-
 #intro_view {
 	position: relative;
 	margin: 1em;

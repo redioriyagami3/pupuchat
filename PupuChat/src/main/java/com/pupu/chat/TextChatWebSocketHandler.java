@@ -1,4 +1,4 @@
-package com.pupuchat.chat;
+package com.pupu.chat;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

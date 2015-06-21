@@ -1,4 +1,4 @@
-package com.pupuchat.chat;
+package com.pupu.chat;
 
 public class Protocol {
 	public static final String JSON_TYPE = "type";

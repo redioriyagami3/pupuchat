@@ -1,4 +1,4 @@
-package com.pupuchat.chat;
+package com.pupu.chat;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
